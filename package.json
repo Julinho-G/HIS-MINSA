@@ -1,0 +1,19 @@
+{
+  "name": "his-minsa",
+  "version": "1.0.0",
+  "description": "Aplicación HIS MINSA con frontend web y API de producción asistencial",
+  "main": "backend/server.js",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "node --watch backend/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mssql": "^10.0.1"
+  }
+}
